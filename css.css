@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    font-family: 'Sono', sans-serif;
+    /* background-color: #CACACA; */
+    background-color: #E6DEDC;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    height: 30px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Sono', sans-serif;
+}
+
+nav a:hover {
+    color: rgba(0, 152, 202, 0.5);
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #202022;
+}
+
+h3 {
+    width: 50%;
+    text-align: center;
+    border-radius: 2ch;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.padre1{
+    width: 100%;
+}
+
+.hola1{
+    background-color:#5FCDD9;
+    width: 15cm;
+    border-radius: 2ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1mm 0px 1mm 0px;
+    margin: 0cm 2cm 10px 10px;
+}
+
+.imagen{
+    text-align: center;
+}
+
+.title{
+    background-color: #202022;
+    width: 15cm;
+    border-radius: 2ch;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    color: white;
+}
